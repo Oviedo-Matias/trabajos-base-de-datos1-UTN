@@ -1,0 +1,55 @@
+Ejercicio 2:
+cod_hotel -> cantidad_habitaciones
+cod_hotel -> direccion_hotel
+cod_hotel -> ciudad_hotel
+dni_gerente -> nombre_gerente
+dni_cliente -> nombre_cliente
+dni_cliente -> ciudad_cliente
+cod_hotel, dni_cliente -> habitacion
+
+Atributos primos: cod_hotel, dni_gerente, dni_cliente.
+Atributos no primos: cantidad_habitaciones, direccion_hotel, ciudad_hotel, nombre_gerente, nombre_cliente, ciudad_cliente, fecha_inicio_hospedaje, cant_dias_hospedaje, habitacion.
+
+cod_hotel determina el hotel.
+dni_cliente determina el cliente.
+dni_gerente determina el gerente.
+dni_cliente y cod_hotel determinan estadía.
+
+Se crean las tablas hotel, cliente y gerente.
+
+Ejercicio 3:
+frecuencia_radio, anio -> radio
+frecuencia_radio, anio, radio -> programa
+programa, anio -> conductor
+radio, anio -> gerente
+
+Atributos primos: frecuencia_radio, anio.
+atributos no primos: radio, programa, conductor, gerente.
+
+frecuencia_radio y anio determinan la radio.
+
+Se crea la tabla radio.
+
+Ejercicio 4:
+codigo_sucursal -> domicilio_sucursal
+codigo_sucursal -> telefono_sucursal
+codigo_sucursal, codigo_fosa -> largo_fosa
+codigo_sucursal, codigo_fosa -> ancho_fosa
+patente_auto -> marca_auto
+patente_auto -> modelo_auto
+dni_cliente -> nombre_cliente
+dni_cliente -> celular_cliente
+dni_mecanico -> nombre_mecanico
+dni_mecanico -> email_mecanico
+
+Atributos primos: codigo_sucursal, codigo_fosa, patente_auto, dni_cliente, dni_mecanico.
+Atributos no primos: domicilio_sucursal, telefono_sucursal, largo_fosa, ancho_fosa, marca_auto, modelo_auto, nombre_cliente, celular_cliente, nombre_mecanico, email_mecanico.
+
+codigo_sucursal determina la sucursal.
+codigo_sucursal y codigo_fosa determinan la fosa.
+patente_auto determina el auto.
+dni_cliente determina el cliente.
+dni_mecanico determina el mecanico.
+
+Se crean las tablas sucursal, fosa, auto, cliente y reparaciones.
+Se elimina la tabla taller.
