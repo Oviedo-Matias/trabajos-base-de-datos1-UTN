@@ -53,3 +53,21 @@ dni_mecanico determina el mecanico.
 
 Se crean las tablas sucursal, fosa, auto, cliente y reparaciones.
 Se elimina la tabla taller.
+
+Ejercicio5:
+cod_torneo -> nombre_torneo
+cod_corredor, cod_torneo -> cod_bicicleta
+cod_corredor, cod_torneo -> nyap_corredor
+cod_bicicleta, cod_torneo -> marca_bicicleta
+dni_presidente_sponsor -> sponsor
+dni_presidente_sponsor -> dni_medico
+
+Atributos primos: cod_torneo, cod_corredor, cod_bicicleta, dni_presidente_sponsor.
+Atributos no primos: nombre_torneo, marca_bicicleta, nyap_corredor, sponsor, dni_medico.
+
+cod_torneo identifican el torneo.
+cod_corredor y cod_torneo identifican el corredor y sus bicicletas registradas.
+cod_torneo y cod_bicicleta identifican una bicicleta.
+dni_presidente_sponsor identifica al sponsor y a su médico.
+
+Se crean tablas torneos, corredores, sponsors, representantes, bicicletas.
